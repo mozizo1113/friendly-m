@@ -75,6 +75,10 @@ export const Header = () => {
             >
               أقرب المرافق الصحية
             </a>
+            <Link to="/articles" className="text-sm font-medium hover:text-primary transition-colors flex items-center gap-1">
+              <Stethoscope className="h-4 w-4" />
+              المقالات
+            </Link>
             <Link to="/gym" className="text-sm font-medium hover:text-primary transition-colors flex items-center gap-1">
               <Dumbbell className="h-4 w-4" />
               الجيم والتغذية
@@ -220,6 +224,14 @@ export const Header = () => {
                 >
                   أقرب المرافق الصحية
                 </a>
+                <Link 
+                  to="/articles" 
+                  className="text-sm font-medium hover:text-primary transition-colors px-2 py-2 hover:bg-muted rounded-md flex items-center gap-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <Stethoscope className="h-4 w-4" />
+                  المقالات
+                </Link>
                 <Link 
                   to="/gym" 
                   className="text-sm font-medium hover:text-primary transition-colors px-2 py-2 hover:bg-muted rounded-md flex items-center gap-2"

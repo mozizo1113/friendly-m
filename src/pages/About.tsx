@@ -63,7 +63,7 @@ const About = () => {
             من نحن
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            إسعفني هو منصة صحية شاملة مصممة خصيصاً لخدمة المجتمع المصري، نقدم معلومات طبية موثوقة وإرشادات للإسعافات الأولية والصحة النفسية.
+            إسعفني هو منصة صحية شاملة مصممة خصيصاً لخدمة المجتمع المصري، نقدم معلومات طبية موثوقة وإرشادات للإسعافات الأولية والصحة النفسية، مع دعم البحث عن المستشفيات والمراكز الصحية والمراكز النفسية والصيدليات، بالإضافة إلى أدوات ذكية تساعد في حساب السعرات والبروتينات اليومية، وتوجيهك نحو أفضل العلاجات عبر تجربة صحية متكاملة.
           </p>
         </div>
 
@@ -124,8 +124,8 @@ const About = () => {
         {/* Features Summary */}
         <div className="bg-gradient-to-r from-primary/10 to-primary/5 rounded-2xl p-8 text-center">
           <h2 className="text-2xl font-bold text-foreground mb-4">ماذا نقدم؟</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            نقدم قاعدة بيانات شاملة تضم {physicalDiseases.length} مرض جسدي و{treatments.length} علاج و{firstAidTips.length} إسعاف أولي و{mentalDiseases.length} مرض نفسي، بالإضافة إلى أرقام الطوارئ وحاسبة BMI وخطط النظام الغذائي والبحث عن أقرب المستشفيات والصيدليات.
+          <p className="text-muted-foreground max-w-3xl mx-auto">
+            نقدم قاعدة بيانات شاملة تضم {physicalDiseases.length} مرض جسدي و{treatments.length} علاج و{firstAidTips.length} إسعاف أولي و{mentalDiseases.length} مرض نفسي، إلى جانب محتوى متخصص حول أهمية الجيم والتمارين الرياضية، ودور الذكاء الاصطناعي في حساب السعرات والبروتينات اليومية، وتوفير دعم ذكي في تشخيص الأعراض وترشيح أفضل العلاجات، مع سهولة البحث عن المستشفيات والمراكز الصحية والمراكز النفسية والصيدليات.
           </p>
         </div>
       </main>

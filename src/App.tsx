@@ -21,6 +21,7 @@ import Install from "./pages/Install";
 import Community from "./pages/Community";
 import Gym from "./pages/Gym";
 import UserProfile from "./pages/UserProfile";
+import Articles from "./pages/Articles";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -55,6 +56,7 @@ const App = () => (
                 <Route path="/install" element={<Install />} />
                 <Route path="/community" element={<Community />} />
                 <Route path="/gym" element={<Gym />} />
+                <Route path="/articles" element={<Articles />} />
                 <Route path="/profile/:userId" element={<UserProfile />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
