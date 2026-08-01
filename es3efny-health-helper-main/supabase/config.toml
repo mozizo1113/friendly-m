@@ -1,0 +1,19 @@
+project_id = "rmcbcxtbdinpmsyafaao"
+
+[functions.ai-chat]
+verify_jwt = false
+
+[functions.ai-diet-plan]
+verify_jwt = false
+
+[functions.personality-test-analysis]
+verify_jwt = false
+
+[functions.ai-diagnosis]
+verify_jwt = false
+
+[functions.gym-food-analyze]
+verify_jwt = false
+
+[functions.gym-video-analyze]
+verify_jwt = false
